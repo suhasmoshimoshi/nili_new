@@ -11,7 +11,7 @@ const Header = () => {
     <header className='w-full border-b'>
      <div className='wrapper flex items-center justify-between'>
        <Link href='/' className='w-36'>
-        <Image src='/assets/images/Logo.svg' width={128} height={38} alt='nili_logo' />
+        <Image src='/assets/images/logo.svg' width={128} height={38} alt='nili_logo' />
        </Link>
        <SignedIn>
         <nav className='hidden md:flex-between w-full max-w-xs'>
