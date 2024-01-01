@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: 'NILI',
   description: 'Have Fun',
   icons:{
-    icon:'/assets/images/Logo.png'
+    icon:'/assets/images/file.png'
   }
 }
 

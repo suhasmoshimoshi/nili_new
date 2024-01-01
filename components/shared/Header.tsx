@@ -11,7 +11,8 @@ const Header = () => {
     <header className='w-full border-b'>
      <div className='wrapper flex items-center justify-between'>
        <Link href='/' className='w-36'>
-        <Image src='/assets/images/logo.svg' width={128} height={38} alt='nili_logo' />
+       <Image src='/assets/images/file.png' alt='logo' width={128} height={38} className='h-[50px] w-[75px] rounded-2xl' />
+
        </Link>
        <SignedIn>
         <nav className='hidden md:flex-between w-full max-w-xs'>
@@ -25,7 +26,7 @@ const Header = () => {
             <MobileNav />
         </SignedIn>
 <SignedOut>
-    <Button asChild className='rounded-full ' size="lg">
+    <Button asChild className='rounded-full bg-green-500' size="lg">
 <Link href="/sign-in">
     Login
 </Link>
